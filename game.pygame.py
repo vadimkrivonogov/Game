@@ -13,15 +13,15 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Ловец листьев")
 
 # Загрузка фонового изображения
-background_image = pygame.image.load("fon.png")  # Замените "fon.png" на путь к вашему изображению фона
+background_image = pygame.image.load("fon.png")  
 background_image = pygame.transform.scale(background_image, (screen_width, screen_height))
 
 # Загрузка изображения яблока
-apple_image = pygame.image.load("listja.png")  # Замените "listja.png" на путь к вашему изображению яблока
+apple_image = pygame.image.load("listja.png")  
 apple_image = pygame.transform.scale(apple_image, (50, 40))
 
 # Загрузка изображения корзины
-korzina_image = pygame.image.load("korzina.png")  # Замените "korzina.png" на путь к вашему изображению корзины
+korzina_image = pygame.image.load("korzina.png")  
 korzina_image = pygame.transform.scale(korzina_image, (100, 100))
 
 # Параметры яблока
